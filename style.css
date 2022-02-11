@@ -62,7 +62,7 @@ section {
 /* About section */
 
 .about {
-    background: #000;
+    background: #fff;
 }
 
 /*---------------------
@@ -162,10 +162,11 @@ section {
 
 .roadmap {
     background: #FDB525;
+    padding: 50px 0;
 }
 
 .roadmap-main {
-    width: 70%;
+    width: 90%;
 }
 
 .timeline {
@@ -356,15 +357,16 @@ section {
 /* socials */
 
 .socials{
-  background: #181818;
+  background: #fff;
 }
 
 .socials h2 {
-  color: #fff;
+  color: #000;
 }
 
 .socials p {
-  color: #eee
+  color: #000;
+  font-weight: 500;
 }
 
 .twitter p {
