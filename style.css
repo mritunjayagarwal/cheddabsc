@@ -69,92 +69,38 @@ section {
   Services Section
 -----------------------*/
 
-/* Tokenomics Section */
-
-.toke-item {
-  text-align: center;
-  background: #262626;
-  transition: .7s;
-  margin-top: 20px;
-}
-.toke-item h3 {
-  font-size: 25px;
-  color: #000;
-  font-weight: 600;
-  text-align: center;
-  margin: 0;
-  margin-top: -80px;
-  font-family: poppins;
-  color: #fff;
-}
-.toke-item h4 {
-  font-size: 48px;
-  font-weight: 500;
-  color: #fff;
-}
-.toke-item h4 span.sup {
-  vertical-align: text-top;
-  font-size: 25px;
-}
-.deal-top {
-  position: relative;
-  background: #FFA600;
-  font-size: 25px;
-  text-transform: uppercase;
-  padding: 136px 24px 0;
-}
-.deal-top::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -50px;
-  width: 0;
-  height: 0;
-}
-.toke-head {
-  padding: 56px 16px 0;
-}
-.toke-head ul {
-  margin: 0;
-  padding: 0;
-}
-.toke-head  ul li {
-  font-size: 16px;
-  color: #fff;
-  font-weight: 300;
-  margin-top: 16px;
-  border-top: 1px solid #E4E4E4;
-  border-bottom: 1px solid #E4E4E4;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  list-style: none;
-}
-.btn-area a {
-  display: inline-block;
-  font-size: 18px;
-  color: #fff;
-  background: #FFA600;
-  padding: 8px 64px;
-  margin-top: 32px;
-  border-radius: 4px; 
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
+.services-section {
+	background: #fff;
+	padding-top: 0;
+	padding-bottom: 80px;
 }
 
+.service-item {
+	text-align: center;
+	background: #38B6FF;
+	padding: 46px 50px 0;
+	height: 350px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-bottom: 30px;
+}
 
-.toke-item:hover {
-  background: #FFA600;
+.service-item:hover {
+	border-bottom: 3px solid #FDB525;
+	margin-top: -10px;
 }
-.toke-item:hover .deal-top {
-  background: #262626;
+
+.service-item h4 {
+	font-size: 22px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 33px;
+	margin-bottom: 25px;
 }
-.toke-item:hover .deal-top:after {
-  border-top: 50px solid #262626;
-}
-.toke-item:hover .btn-area a {
-  background: #262626;
+
+.service-item p {
+  color: #fff;
 }
 
 
@@ -325,36 +271,9 @@ section {
   .file-list {
     line-height: 1.4;
     list-style: none;
-    padding-left: 10px;
   }
-  
-  .page {
-    max-width: 1200px;
-    margin: 40px 30px;
-  }
-  
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-  a:hover, a:focus {
-    text-decoration: underline;
-  }
-  
-  .video-link:before {
-    content: "\f03d";
-    display: inline-block;
-    font-family: "FontAwesome";
-    margin-right: 5px;
-  }
-  
-  a[href*=".pdf"]:before {
-    content: "\f0f6";
-    display: inline-block;
-    font-family: "FontAwesome";
-    margin-right: 8px;
-  }
-  
+
+
 /* socials */
 
 .socials{
