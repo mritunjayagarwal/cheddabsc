@@ -19,7 +19,7 @@ section {
 }
 
 .hero {
-    background: #FDB525;
+    background: #38B6FF;
     padding: 300px 0;
 }
 
@@ -36,6 +36,27 @@ section {
 
 .chedda-head-btn:hover{
     background: #38B6FF;
+}
+
+/* logo move */
+
+.logo-move{
+	margin-top: -30px;
+	position: relative;
+	animation: moveUp 10s ease infinite;
+	animation-delay: 2s;
+}
+
+@keyframes moveUp {
+    from{
+		top: 0px;
+	}
+	50%{
+		top: 20px;
+	}
+	to{
+		top: -20px;
+	}
 }
 
 /* About section */
