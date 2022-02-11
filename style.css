@@ -161,7 +161,7 @@ section {
 /* roadmap events */
 
 .roadmap {
-    background: #FDB525;
+    background: #38B6FF;
     padding: 50px 0;
 }
 
@@ -256,7 +256,7 @@ section {
     box-sizing: border-box;
   }
   .timeline-milestone.is-current:before {
-    background-color: #38B6FF;
+    background-color: #fff;
   }
   .timeline-milestone.is-future:before {
     background-color: #8DACB8;
@@ -267,10 +267,10 @@ section {
   }
   
   .timeline-action {
-    background-color: #38B6FF;
-    border:2px solid #000;
-    color: #fff;
-    padding: 12px 10px 12px 20px;
+    background-color: #fff;
+    /* border:2px solid #000; */
+    color: #000;
+    padding: 20px 20px;
     position: relative;
     top: -15px;
   }
@@ -308,8 +308,9 @@ section {
   .timeline-action .title {
     color: #FDB525;
     letter-spacing: 1.5px;
-    text-shadow: 0.8px 0 0 #000, -0.8px 0 0 #000, 0 0.8px 0 #000, 0 -0.8px 0 #000, 0.8px 0.8px #000, -0.8px -0.8px 0 #000, 0.8px -0.8px 0 #000, -0.8px 0.8px 0 #000;
+    /* text-shadow: 0.8px 0 0 #808080, -0.8px 0 0 #808080, 0 0.8px 0 #808080, 0 -0.8px 0 #808080, 0.8px 0.8px #808080, -0.8px -0.8px 0 #808080, 0.8px -0.8px 0 #808080, -0.8px 0.8px 0 #808080; */
     font-size: 18px;
+    font-weight: 700;
     margin: 0;
   }
   .timeline-action .date {
